@@ -2,7 +2,7 @@ import './App.css';
 import './bootstrap-css/bootstrap.css';
 import { useEffect, useState } from 'react'
 import TeamName from './components/TeamName';
-import Starters from './components/Starters';
+import Roster from './components/Roster';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   // we also need to initialize component state with useState
 
   async function getAppData() {
-    let test = 'oh yea im, testing my guy';
+    console.log('hello');
   }
 
   useEffect(() => {
@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <div className="container">
         <TeamName />
-        <Starters />
+        <Roster/>
       </div>
     </div>
   );

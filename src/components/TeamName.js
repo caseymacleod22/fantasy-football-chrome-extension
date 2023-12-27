@@ -1,6 +1,6 @@
 const TeamName = (props) => {
     return (
-        <h2 class="col-12">Girtho's Girth</h2>
+        <h2 class="col-12">Team Name</h2>
     )
 }
 

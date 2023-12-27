@@ -7,10 +7,9 @@ html, body {
 .App {
   background-color: #212121;
   color: #fff;
-  height: 101vh;
   width: 102vw;
 }
 
-.score-container {
-
+ul {
+  color: white;
 }
