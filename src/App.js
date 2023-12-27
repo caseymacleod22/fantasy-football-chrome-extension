@@ -2,7 +2,7 @@ import './App.css';
 import './bootstrap-css/bootstrap.css';
 import { useEffect, useState } from 'react'
 import TeamName from './components/TeamName';
-import Roster from './components/Roster';
+import League from './components/League';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <div className="container">
         <TeamName />
-        <Roster/>
+        <League/>
       </div>
     </div>
   );
