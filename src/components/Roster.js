@@ -35,7 +35,7 @@ const Roster = () => {
     const fetchData = async () => {
       // Fetch team data
       try {
-        const response = await fetch('https://api.sleeper.app/v1/league/784456593403224064/rosters');
+        const response = await fetch('https://api.sleeper.app/v1/league/917927357623795712/rosters');
         const result = await response.json();
         
         const startersList = result.map(roster => roster.starters);
